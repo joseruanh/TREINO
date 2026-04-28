@@ -6,12 +6,16 @@
     --cor2: #FF70E7;
 }
 
+img.treino
+{
+    border-radius: 10px;
+}
+
 *{padding: 0; margin: 0; font-family: "Google Sans";}
 
 header{
     width: 100%; 
     margin: auto;
-    border: 1px solid black; 
     height: 40px;
     display: flex;
     justify-content: space-around;
@@ -21,6 +25,9 @@ header{
 p.principal
 {
     font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    color: #5000A6;
 }
 
 main
@@ -28,7 +35,6 @@ main
     padding-top: 30px;
     width: 80%;
     margin: auto;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -81,9 +87,20 @@ div#res
 p.treinoT
 {
     font-weight: bolder;
+    color: #5000A6;
 }
 
 iframe
 {
     border-radius: 10px;
+}
+
+body
+{
+  background-color: #dbbaff;
+}
+
+p
+{
+    color: white;
 }
