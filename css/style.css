@@ -1,4 +1,6 @@
-*{padding: 0; margin: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap');
+
+*{padding: 0; margin: 0; font-family: "Google Sans";}
 
 header{
     width: 100%; 
@@ -9,16 +11,30 @@ header{
     align-items: center;
 }
 
+p.principal
+{
+    font-weight: bolder;
+}
+
 main
 {
+    padding-top: 30px;
     width: 80%;
     margin: auto;
     border: 1px solid black;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+div.conteudo
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
 p.dias
 {
     display: flex;
@@ -27,5 +43,23 @@ p.dias
     width: 150px;
     height: 150px;
     border: 1px solid black;
-    margin: 0px 4px;
+    margin: 0px 9px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+p.dias:hover
+{
+    transform: scale(1.2);
+}
+
+div#res
+{
+    padding-top: 70px;
+    text-align: center;
+}
+
+p.treinoT
+{
+    font-weight: bolder;
 }
