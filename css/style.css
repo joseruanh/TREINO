@@ -1,0 +1,31 @@
+*{padding: 0; margin: 0;}
+
+header{
+    width: 100%; 
+    border: 1px solid black; 
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main
+{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p.dias
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    margin: 0px 4px;
+}
